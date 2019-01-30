@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="ClawRock\CustomerImporter\Api\CustomerImporterInterface" type="ClawRock\CustomerImporter\Model\CustomerImporter" />
+    <preference for="ClawRock\CustomerImporter\Api\CustomerImporterSettingsAddressInterface" type="ClawRock\CustomerImporter\Model\CustomerImporterSettingsAddress" />
+    <preference for="ClawRock\CustomerImporter\Api\CustomerImporterSettingsInterface" type="ClawRock\CustomerImporter\Model\CustomerImporterSettings" />
+</config>
